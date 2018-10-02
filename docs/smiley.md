@@ -1,6 +1,6 @@
 ## Smiley.vi
 
-![ScreenShot](https://github.com/ALSETLab/Ambient-Mode-Estimator/pics/smiley_pic.jpg)
+![ScreenShot](https://github.com/ALSETLab/Ambient-Mode-Estimator/pics/smiley_pic.mht)
 
 
 
