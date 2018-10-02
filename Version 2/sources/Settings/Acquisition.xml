@@ -1,0 +1,97 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0f2</Version>
+<Cluster>
+<Name>Settings In</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>State</Name>
+<Choice>Idle</Choice>
+<Choice>Idle S3DK</Choice>
+<Choice>Acquiring S3DK</Choice>
+<Choice>Idle CSV</Choice>
+<Choice>Acquiring CSV</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Settings</Name>
+<Val>Acquisition</Val>
+</String>
+<Boolean>
+<Name>Online</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>S3DK</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Signals</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>Phasor</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Station Name</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Analog</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Station Name</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Digital</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Station Name</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>CSV</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Parcel Length</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>EOF?</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Config</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Mode</Name>
+<Choice>Full timestamp</Choice>
+<Choice>Relative Time</Choice>
+<Choice>Seconds Time</Choice>
+<Choice>Nanoseconds Time</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>delimiter (\t)</Name>
+<Val>	</Val>
+</String>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>Rectangular?</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+</Cluster>
+</LVData>

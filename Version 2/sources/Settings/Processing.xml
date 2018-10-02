@@ -1,0 +1,36 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0f2</Version>
+<Cluster>
+<Name>Settings In</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Settings</Name>
+<Val>Processing</Val>
+</String>
+<Cluster>
+<Name>Parameters</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Size</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Samples</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Ordered ?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<U32>
+<Name>Refresh Rate</Name>
+<Val>100</Val>
+</U32>
+</Cluster>
+</LVData>
