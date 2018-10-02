@@ -7,7 +7,7 @@ terminal data per terminal that is identified in the document.
 
 First, the program determines the number of terminals in the file. 
 
-![ScreenShot](https://github.com/ALSETLab/S3DKAmbientModeEstimator-master/pics/CSVReader_pic.png)
+![ScreenShot](https://github.com/ALSETLab/Ambient-Mode-Estimator/blob/master/pics/CSVReader_pic.png)
 
 
 Next, it executes a for loop that passes through every row of data, besides the headers (already deleted using the Delete from Array subVI).
