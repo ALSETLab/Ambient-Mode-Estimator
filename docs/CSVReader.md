@@ -7,14 +7,14 @@ terminal data per terminal that is identified in the document.
 
 First, the program determines the number of terminals in the file. 
 
-![ScreenShot](https://github.com/ALSETLab/S3DKAmbientModeEstimator-master/pics/CSVReader_pic.jpg)
+![ScreenShot](https://github.com/ALSETLab/S3DKAmbientModeEstimator-master/pics/CSVReader_pic.png)
 
 
 Next, it executes a for loop that passes through every row of data, besides the headers (already deleted using the Delete from Array subVI).
 The terminal is determined by the iteration number divided by the number of terminals. The data put in the terminals is dependent on the 4
 inputs: Format Type, Measurement Type, Frequency Type, and Digital Channel Selector. The options for each are as follows:
 
-Format Type – Format A or Format B (the current supported original CSV formats)
+Format Type â€“ Format A or Format B (the current supported original CSV formats)
 Measurement Type - Power or Voltage or Current
 Frequency Type - Frequency or d(Frequency)/dt
 Digital Channel Selector - 1 or 2 or 3 (the Format B files may have values for some, all, or none of these channels)
